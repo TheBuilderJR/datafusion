@@ -77,6 +77,19 @@ parquet = { git = "https://github.com/TheBuilderJR/arrow-rs",  branch = "52.2.1"
     "async",
     "object_store",
 ] }
+# arrow = { path = "/Users/bobren/projects/arrow-rs/arrow", features = ["prettyprint"] }
+# arrow-array = { path = "/Users/bobren/projects/arrow-rs/arrow-array", default-features = false, features = ["chrono-tz"] }
+# arrow-buffer = { path = "/Users/bobren/projects/arrow-rs/arrow-buffer", default-features = false }
+# arrow-flight = { path = "/Users/bobren/projects/arrow-rs/arrow-flight", features = ["flight-sql-experimental"] }
+# arrow-ipc = { path = "/Users/bobren/projects/arrow-rs/arrow-ipc", default-features = false, features = ["lz4"] }
+# arrow-ord = { path = "/Users/bobren/projects/arrow-rs/arrow-ord", default-features = false }
+# arrow-schema = { path = "/Users/bobren/projects/arrow-rs/arrow-schema", default-features = false }
+# arrow-string = { path = "/Users/bobren/projects/arrow-rs/arrow-string", default-features = false }
+# parquet = { path = "/Users/bobren/projects/arrow-rs/parquet", default-features = false, features = [
+#     "arrow",
+#     "async",
+#     "object_store",
+# ] }
 async-trait = "0.1.73"
 bigdecimal = "=0.4.1"
 bytes = "1.4"
